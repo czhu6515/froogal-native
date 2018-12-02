@@ -12,7 +12,6 @@ class VenueList extends Component {
         .then((response) => response.json())
         .then((responseJson) => {
           venues = responseJson.venues
-          console.log(venues)
           this.setState({ venues })
         })
     }
