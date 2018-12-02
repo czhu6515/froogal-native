@@ -24,6 +24,7 @@ class VenueList extends Component {
             <Venue 
               key={venue.name}
               name={venue.name}
+              avg_price={venue.avg_price}
             />)
         })}
         
